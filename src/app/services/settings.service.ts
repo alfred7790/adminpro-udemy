@@ -1,8 +1,6 @@
 import { Injectable } from '@angular/core';
 
-@Injectable({
-  providedIn: 'root'
-})
+@Injectable()
 export class SettingsService {
   ajustes: Ajustes = {
     temaUrl: 'assets/css/colors/default.css',

@@ -8,6 +8,8 @@ import { PagesModule } from './pages/pages.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/register.component';
+import {CommonModule} from '@angular/common';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,6 +20,8 @@ import { RegisterComponent } from './login/register.component';
   imports: [
     BrowserModule,
     PagesModule,
+    CommonModule,
+    FormsModule,
     APP_ROUTES
   ],
   providers: [],
